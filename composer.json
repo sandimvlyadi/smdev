@@ -2,7 +2,7 @@
     "name": "sandimvlyadi/smdev",
     "description": "A laravel library for smdev",
     "homepage": "https://smdev.web.id",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "library",
     "license": "MIT",
     "autoload": {

@@ -39,6 +39,30 @@ Send message to your webhook:
 Hook::send('your message goes here');
 ```
 
-### 2.2. COMING SOON FEATURE
+### 2.1. RENOT (Real Time Error Notification)
 
-Please be patient to wait :)
+Add this line to your .env file:
+
+```
+RENOT_URL="[YOUR RENOT SERVICE URL]"
+```
+
+You can call this library:
+
+```php
+use Sandimvlyadi\Smdev\Renot;
+```
+
+Send message:
+
+```php
+Renot::send('your message goes here');
+```
+
+or
+
+```php
+Renot::send('your message goes here', 'XXXXXX,YYYYYY');
+```
+
+`XXXXXX` and `YYYYYY` are targets (bot's user PID)
